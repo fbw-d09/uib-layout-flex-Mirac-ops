@@ -1,5 +1,10 @@
 /* Use flexbox to align all divs in a row. Use wrap so that the divs appear on multiple rows. Center the rows in the container*/
 
+.container{
+  display: flex;
+}
+
+
 div {
   height: 100px;
   width: 200px;
@@ -7,4 +12,11 @@ div {
   margin: 1em;
   border: 2px solid red;
   text-align: center;
+}
+
+section{
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(247, 240, 240);
 }
